@@ -101,10 +101,10 @@ a:hover, a:active {
 	height: 50px;
 	background-color: #000;
 	width:100%;
-	position: fixed;
-	overflow:hidden;
+	
+	
 	clear:both;
-	z-index:3;
+	
 	border-bottom:3px solid #A6A616;
 }
 .search input {
@@ -128,4 +128,31 @@ a:hover, a:active {
 	border-bottom: 3px solid #A6A616;
 	border-right: 3px solid #A6A616;
 	border-left: 3px solid #A6A616;
+	display: none;
+}
+.freechampions {
+	padding:8px;
+	height:250px;
+	width: 980px;
+	border: 2px solid #A6A616;
+	margin-top:50px;
+}
+.freechampionshead{
+	padding: 10px;
+	border-bottom: 2px solid #fff;
+	font-size: 25px;
+}
+.freechampionshead h2{
+	margin-bottom: 2px;
+}
+.freechampionsbody {
+	padding:5px;
+
+}
+.freechampionsbody img {
+	width:100px;
+	height:190px;
+	margin-left:2.5px;
+	margin-bottom:5px;
+	margin-top:5px;
 }

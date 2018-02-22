@@ -97,6 +97,31 @@ a:hover, a:active {
 	color:#A6A616;
 	cursor: pointer;
 }
+#chm {
+	border-left: 1px solid #A6A616;
+	border-right:1px solid #A6A616;
+	position: fixed;
+	background: #000;
+	top: 50px;
+}
+#chm li {
+	display:inline;
+	float: left;
+	clear:both;
+	text-align: center;
+	width: 120px;
+	cursor: pointer;
+	border-bottom: 1px solid #A6A616;
+}
+#chm li a{
+	cursor: pointer;
+}
+#chm a:link, #chm a:visited{
+	color: #fff;
+}
+#chm li a:hover{
+	color: #A6A616;
+}
 .fullwidth {
 	height: 50px;
 	background-color: #000;
@@ -130,12 +155,72 @@ a:hover, a:active {
 	border-left: 3px solid #A6A616;
 	display: none;
 }
+#contactdiv input{
+	padding: 5px;
+	float: left;
+	background: #000;
+	border: 1px solid #A6A616;
+	margin-bottom:10px;
+	color: ##A6A616;
+	outline: none;
+	min-width:300px;
+}
+#contactdiv input:focus{
+	background-color:#666;
+	border: 1px solid #fff;
+	margin-right: 10px;
+	color: #000;
+	outline: none;
+}
+#contactdiv textarea {
+	float: left;
+	background: #000;
+	border: 1px solid #A6A616;
+	color :#A6A616;
+	padding:5px;
+	min-height:180px;
+	max-height:180px;
+	min-width:300px;
+	max-width:300px;
+	resize: none;
+	outline: none;
+}
+#contactdiv textarea:focus{
+	background:#666;
+	border: 1px solid #fff;
+	margin-right:10px;
+	color: #000;
+	outline: none;
+}
+.con {
+	width:300px;
+	margin-right: 10px;
+	padding: 10px;
+	float: left;
+}
+.sb {
+	padding:10px;
+	border:1px solid #A6A616;
+	margin-top: 20px;
+	display:inline-block;
+	float:left;
+	background:#000;
+	color: #A6A616;
+}
+.sb:hover {
+	border: 1px solid #fff;
+	background: #666;
+	color: #000;
+	
+}
+
 .freechampions {
 	padding:8px;
-	height:250px;
+	height:100%;
 	width: 980px;
 	border: 2px solid #A6A616;
 	margin-top:50px;
+	overflow: hidden;
 }
 .freechampionshead{
 	padding: 10px;
@@ -155,4 +240,17 @@ a:hover, a:active {
 	margin-left:2.5px;
 	margin-bottom:5px;
 	margin-top:5px;
+}
+.championinfo{
+	padding:30px;
+	border-top: 2px solid #fff;
+	margin-top: 5px;
+	display:none;
+}
+#close{
+	font-size:30px;
+	float:right;
+	cursor:pointer;
+	margin-top:-27px;
+	display:none;
 }
